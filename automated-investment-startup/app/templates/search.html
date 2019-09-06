@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+
+	<h1 class="ui header">{{ title }}</h1>
+
+  <form action="/search/tweets" method="post">
+    <input type="text" name="search_query">
+    <input type="submit" value="Get Tweets">
+  </form>
+
+  <div id="search results">
+    <ol id="Search_List">
+    <!--		insert tweets here!!!-->
+    </ol>
+  </div>
+
+  <script src="static/js/search.js"></script>
+
+{% endblock %}

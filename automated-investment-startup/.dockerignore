@@ -1,0 +1,7 @@
+*.db
+*.log
+*.pyc
+.git/
+venv/
+app/instance/
+config.py
