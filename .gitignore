@@ -1,1 +1,6 @@
 .idea
+fraud-detection/.ipynb_checkpoints/
+venv/
+kaggle.json
+*.zip
+*.csv
